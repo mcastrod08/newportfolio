@@ -28,7 +28,7 @@ const Hero = () => {
 				</div>
 				<div className="flex justify-center">
 					<a className='cursor-pointer'>
-						<MagicButton title="My work" icon={<GiBottomRight3dArrow />} position="right"/>
+						<MagicButton title="My work" icon={<GiBottomRight3dArrow />}/>
 					</a>
 				</div>
 				

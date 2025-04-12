@@ -1,8 +1,8 @@
 import React from 'react'
 
 const MagicButton = ({
-	title, icon, handleClick }: {
-		title:string; icon:React.ReactNode, position: string; handleClick?: () => void; } ) => {
+	title, icon }: {
+		title:string; icon:React.ReactNode } ) => {
 	
   return (
     <button className="p-[3px] relative cursor-pointer">
