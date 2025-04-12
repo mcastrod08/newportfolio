@@ -1,6 +1,5 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
-import { GridBackgroundDemo } from './ui/GridBackgroundDemo'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { GiBottomRight3dArrow } from "react-icons/gi";
@@ -21,7 +20,7 @@ const Hero = () => {
 						<TextGenerateEffect 
 							className="text-[40px] text-center md:text-5xl lg:text-6xl"
 							words="Frontend Developer with React Js"/>
-						<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">I'm María Castro</p>
+						<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">I am María Castro</p>
 					</div>
 
 					
