@@ -60,7 +60,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: unknown, idx: number) => (
+        {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}
@@ -80,3 +80,7 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+export interface ITestState{
+  listItems : any // eslint-disable-line @typescript-eslint/no-explicit-any
+}
