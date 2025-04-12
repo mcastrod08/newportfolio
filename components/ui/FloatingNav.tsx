@@ -40,6 +40,7 @@ export const FloatingNav = ({
       }
     }
   });
+   /* eslint-disable @typescript-eslint/no-explicit-any */
 
   return (
     <AnimatePresence mode="wait">
@@ -60,6 +61,7 @@ export const FloatingNav = ({
           className
         )}
       >
+       
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
@@ -80,7 +82,3 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
-
-export interface ITestState{
-  listItems : any // eslint-disable-line @typescript-eslint/no-explicit-any
-}
