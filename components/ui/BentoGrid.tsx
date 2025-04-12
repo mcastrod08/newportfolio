@@ -26,7 +26,6 @@ export const BentoGridItem = ({
   id,
   img,
   imgClassName,
-  titleClassName, 
   spareImg,
 }: {
   className?: string;
@@ -35,7 +34,6 @@ export const BentoGridItem = ({
   id: number;
   img: string;
   imgClassName?: string;
-  titleClassName?: string;
   spareImg?: string;
 }) => {
   return (
