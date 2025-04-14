@@ -4,19 +4,19 @@ import { CardProject } from './CardProject'
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
-      <h1 className="heading"> Recent {" "}
+    <div className="py-30">
+      <h1 className="heading mb-10"> Recent {" "}
 				<span className="text-purple-400">Projects</span>
 			</h1>
 
-			<div className="flex flex-wrap iems-center justify-center p-4 gap-16 mt-10">
-				{projects.map(({id, title, des, img, iconLists, link }) => (
+			<div className="mx-auto grid grid-cols-3 md:grid-cols-3 h-full w-full">
+				{projects.map(({id, title, des, img, iconLists, github, demo }) => (
 					<div
 						key={id}
-						className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+						className=" h-full flex items-center justify-center "
 					>
 						
-						<CardProject  />
+						<CardProject title={title} description={des} img={img} github={github} demo={demo}/>
 					</div>
 				))}
 			</div>
