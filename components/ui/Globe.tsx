@@ -13,6 +13,8 @@ declare module "@react-three/fiber" {
   }
 }
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 extend({ ThreeGlobe: ThreeGlobe });
 
 const RING_PROPAGATION_SPEED = 3;

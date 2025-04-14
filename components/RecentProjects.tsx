@@ -8,10 +8,10 @@ const RecentProjects = () => {
       <h1 className="heading mb-10"> Recent {" "}
 				<span className="text-purple-400">Projects</span>
 			</h1>
-			{/* es-disable @typescript-eslint/no-unused-variables */}
+			{/* es-disable @typescript-eslint/no-unused-vars */}
 			<div className="mx-auto grid grid-cols-3 md:grid-cols-3 h-full w-full">
 				
-				{projects.map(({id, title, des, img, iconLists, github, demo }) => (
+				{projects.map(({id, title, des, img, github, demo }) => (
 					<div
 						key={id}
 						className=" h-full flex items-center justify-center "
