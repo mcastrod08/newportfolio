@@ -88,7 +88,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
   useEffect(() => {
     if (!globeRef.current && groupRef.current) {
       globeRef.current = new ThreeGlobe();
-      /* eslint-disable @typescript-eslint/no-explicit-any */
+      /* es-disable @typescript-eslint/no-explicit-any */
       (groupRef.current as any).add(globeRef.current);
       setIsInitialized(true);
     }
