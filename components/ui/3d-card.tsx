@@ -117,7 +117,7 @@ export const CardItem = ({
   rotateY?: number | string;
   rotateZ?: number | string;
   /* es-disable @typescript-eslint/no-explicit-any */
-  [key: string]: string;
+  [key: string /* es-disable @typescript-eslint/no-explicit-any */]: /* es-disable @typescript-eslint/no-explicit-any */ any;/* es-disable @typescript-eslint/no-explicit-any */
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
