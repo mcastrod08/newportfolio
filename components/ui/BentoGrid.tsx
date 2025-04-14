@@ -3,7 +3,7 @@ import { cn } from "@/utils/utils";
 import { GradientBg } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
-import MagicButton from "./MagicButton";
+import CopyButton from "./CopyButton";
 import { IoCopyOutline } from "react-icons/io5";
 
 
@@ -134,11 +134,12 @@ export const BentoGridItem = ({
         {id === 6 && (
           <div className="mt-5 relative">
             
-            <MagicButton 
+            <CopyButton 
               title={copied ? 'Email copied' : 'Copy my Email'}
               icon={<IoCopyOutline />}
               otherClasses="!bg-[#161a31]"
               handleClick={handleCopy}
+              
             />
           </div>
         )}
