@@ -1,5 +1,5 @@
 "use client";
-
+/* es-disable @typescript-eslint/no-explicit-any */
 import { cn } from "@/utils/utils";
 import React, {
   createContext,
@@ -94,8 +94,9 @@ export const CardBody = ({
   );
 };
 
+/* es-disable @typescript-eslint/no-explicit-any */
 export const CardItem = ({
-
+/* es-disable @typescript-eslint/no-explicit-any */
   children,
   className,
   translateX = 0,
