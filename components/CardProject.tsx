@@ -2,7 +2,7 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import MagicButton from "./ui/MagicButton";
-import { GiBottomRight3dArrow } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
  
 export function CardProject({title, description, img, github, demo, iconLists} : {title:string; description:string; img:string, github:string, demo:string, iconLists: string[]}) {
   return (
@@ -61,13 +61,7 @@ export function CardProject({title, description, img, github, demo, iconLists} :
           <a href={demo} className="px-4 py-2 rounded-xl text-xs font-normal" target="_blank">
 						Demo →
 					</a>
-          
-					<MagicButton title="Github" icon={<GiBottomRight3dArrow />} otherClasses="px-4 py-2 rounded-[6px] bg-black  text-white text-xs font-bold" href={github}/>
-          
-            
-        
-          
-          
+					<MagicButton title="Github" icon={<FaGithub />} otherClasses="px-4 py-2 rounded-[6px] bg-black  text-white text-xs font-bold" href={github}/>
         </div>
       </CardBody>
     </CardContainer>

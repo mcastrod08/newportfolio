@@ -1,8 +1,9 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import MagicButton from './ui/MagicButton'
-import { GiBottomRight3dArrow } from "react-icons/gi";
+import CopyButton from './ui/CopyButton'
+import { PiArrowBendRightDownFill } from "react-icons/pi";
+
 
 const Hero = () => {
   return (
@@ -27,8 +28,8 @@ const Hero = () => {
 
 				</div>
 				<div className="flex justify-center">
-					<a className='cursor-pointer'>
-						<MagicButton title="My work" icon={<GiBottomRight3dArrow />}/>
+					<a className='cursor-pointer' href="#about">
+						<CopyButton title="My work" icon={<PiArrowBendRightDownFill />}/>
 					</a>
 				</div>
 				

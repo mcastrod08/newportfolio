@@ -6,7 +6,7 @@ const RecentProjects = () => {
   return (
     <div className="py-30 px-5">
       	<h1 className="heading mb-10"> Recent {" "}
-			<span className="text-purple-400">Projects</span>
+			<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Projects</span>
 		</h1>
 			{/* es-disable @typescript-eslint/no-unused-vars */}
 		<div className="mx-auto grid lg:grid-cols-3 md:grid-cols-2  md:gap-4 sm:grid-cols-1 h-full w-full">
