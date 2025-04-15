@@ -25,6 +25,7 @@ export const GlareCard = ({
       y: 0,
     },
   });
+  /* es-disable @typescript-eslint/no-explicit-any */
   const containerStyle = {
     "--m-x": "50%",
     "--m-y": "50%",
@@ -38,7 +39,8 @@ export const GlareCard = ({
     "--radius": "48px",
     "--easing": "ease",
     "--transition": "var(--duration) var(--easing)",
-  } as any;
+    /* es-disable @typescript-eslint/no-explicit-any */
+  } as any;/* es-disable @typescript-eslint/no-explicit-any */
 
   const backgroundStyle = {
     "--step": "5%",
