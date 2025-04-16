@@ -26,21 +26,7 @@ export const GlareCard = ({
     },
   });
   /* es-disable @typescript-eslint/no-explicit-any */
-  const containerStyle = {
-    "--m-x": "50%",
-    "--m-y": "50%",
-    "--r-x": "0deg",
-    "--r-y": "0deg",
-    "--bg-x": "50%",
-    "--bg-y": "50%",
-    "--duration": "300ms",
-    "--foil-size": "100%",
-    "--opacity": "0",
-    "--radius": "48px",
-    "--easing": "ease",
-    "--transition": "var(--duration) var(--easing)",
-    /* es-disable @typescript-eslint/no-explicit-any */
-  } as any;/* es-disable @typescript-eslint/no-explicit-any */
+  
 
   const backgroundStyle = {
     "--step": "5%",
@@ -67,10 +53,12 @@ export const GlareCard = ({
       refElement.current?.style.setProperty("--bg-y", `${background.y}%`);
     }
   };
+
+
   return (
     <div
-      style={containerStyle}
-      className="relative isolate [contain:layout_style] [perspective:600px] transition-transform duration-[var(--duration)] ease-[var(--easing)] delay-[var(--delay)] will-change-transform w-[320px] [aspect-ratio:17/21]"
+      
+      className="relative isolate [contain:layout_style] [perspective:600px] transition-transform duration-[300ms] ease-[ease] delay-[var(--delay)] will-change-transform w-[320px] [aspect-ratio:17/21]"
       ref={refElement}
       onPointerMove={(event) => {
         const rotateFactor = 0.4;
