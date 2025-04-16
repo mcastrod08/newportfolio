@@ -6,7 +6,10 @@ import { FaGift } from "react-icons/fa";
 
 export function Areas() {
   return (
-    <>
+    <div className="pt-30">
+    	<h1 className="heading mb-10"> Areas Where I Can {" "}
+				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Contribute </span>
+			</h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto px-8">
         <Card title="Frontend Web Developer" description="+1 year of experience" button={<Button title="Hover" icon={<FaGift/>}/>}>
           <CanvasRevealEffect
@@ -35,7 +38,7 @@ export function Areas() {
           />
         </Card>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -4,9 +4,9 @@ import { GlareCard } from './ui/GlareCard'
 
 const Experience = () => {
   return (
-    <div className="pb-30 px-5" id="projects">
+    <div className="pt-30 px-5" id="work">
       <h1 className="heading mb-10"> Work {" "}
-				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Experiencie</span>
+				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Experience</span>
 			</h1>
 			<div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
 				{workExperience.map((work) => (

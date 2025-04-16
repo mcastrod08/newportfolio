@@ -4,7 +4,7 @@ import { CardProject } from './CardProject'
 
 const RecentProjects = () => {
   return (
-    <div className="py-30 px-5" id="projects">
+    <div className="pt-30 px-5" id="projects">
       	<h1 className="heading mb-10"> Recent {" "}
 			<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Projects</span>
 		</h1>
