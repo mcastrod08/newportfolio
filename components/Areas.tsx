@@ -78,10 +78,10 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
           {button}
         </div>
-        <h2 className="text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-white mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <h2 className="text-xl  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
-        <p className="text-xs opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-white mt-4  font-normal group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">{description}</p>
+        <p className="text-xs  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-normal group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">{description}</p>
       </div>
     </div>
   );
