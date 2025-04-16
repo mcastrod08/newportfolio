@@ -90,10 +90,10 @@ const Card = ({
 const Button = ({title, icon}:{title:string, icon:React.ReactNode}) => {
   return (
     <button 
-        className="p-[3px] relative"
+        className="p-[3px] relative sm:flex hidden"
         
     >
-        <div className="absolute inset-0 bg-gradient-to-r from-white to-purple-800 rounded-lg" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white to-purple-800 rounded-lg "  />
         <div className={`flex px-10 py-2 gap-2 bg-[#000319] rounded-[6px]  relative group text-white  `}>
             {title} <span className="mt-1">{icon}</span>
         </div>

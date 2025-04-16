@@ -4,14 +4,14 @@ import { GlareCard } from './ui/GlareCard'
 
 const Experience = () => {
   return (
-    <div className="pt-30 px-5" id="work">
+    <div className="pt-30" id="work">
       <h1 className="heading mb-10"> Work {" "}
 				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Experience</span>
 			</h1>
-			<div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+			<div className="mx-auto grid lg:grid-cols-4 md:grid-cols-2  md:gap-4 sm:grid-cols-1 h-full w-full">
 				{workExperience.map((work) => (
-					<GlareCard  key={work.id}>
-						<div className="flex flex-col items-start justify-end py-8 px-6">
+					<GlareCard  key={work.id} >
+						<div className="items-start justify-end py-8 px-6">
 							<img src={work.thumbnail}/>
 							<h1 className="font-bold text-white text-lg mt-5">{work.title}</h1>
 							<p className="font-normal text-base text-neutral-200 mt-4">
