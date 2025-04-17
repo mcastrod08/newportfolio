@@ -89,40 +89,59 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    github: "https://www.facebook.com",
-    demo: "https://www.facebook.com"
+    title: "Restaurant",
+    des: "Landing page of a restaurant",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    github: "https://github.com/mcastrod08/iphone_website_react_gsap_threejs.git",
+    demo: "https://mc08restaurant.netlify.app/"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    github: "https://www.facebook.com",
-    demo: "https://www.facebook.com"
+    title: "Video App",
+    des: "Youtube clone ",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg" ],
+    github: "https://github.com/mcastrod08/youtubeclone",
+    demo: "https://mc08youtube-clone.netlify.app/"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    github: "https://www.facebook.com",
-    demo: "https://www.facebook.com"
+    title: "Iphone",
+    des: "Iphone website clone",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    github: "https://github.com/mcastrod08/iphone_website_react_gsap_threejs",
+    demo: "https://mciphonecopy.netlify.app/"
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Movies App",
+    des: "Movie App with APi connection. If the API fails, i have a video demo",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    github: "https://www.facebook.com",
-    demo: "https://www.facebook.com"
+    iconLists: ["/re.svg", "/tail.svg", ],
+    github: "https://github.com/mcastrod08/movies.git",
+    demo: ""
   },
+  {
+    id: 5,
+    title: "Brainwave",
+    des: "Demo of an new AI",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg", ],
+    github: "https://github.com/mcastrod08/brainwaveMC.git",
+    demo: "https://mcbrainwave.netlify.app/"
+  },
+  {
+    id: 6,
+    title: "Old Portfolio",
+    des: "Old portfolio develop in the pasts few years, ",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/tail.svg", ],
+    github: "",
+    demo: "https://mcastrod.netlify.app/home"
+  },
+
 ];
 
 
