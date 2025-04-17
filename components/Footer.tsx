@@ -4,7 +4,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="pt-20 w-full" id="contact">
+    <footer className="pt-30 w-full" id="contact">
 			<div className="flex flex-col items-center">
 				<h1 className="heading"> When do we start working {" "}
 					<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">together?</span>
@@ -15,7 +15,7 @@ const Footer = () => {
 				</a>
 			</div>
 
-			<div className="my-10 flex justify-center ">
+			<div className="pt-15 pb-10 flex justify-center ">
 				<p className="text-[16px] flex">Copyright © Frontend Developer - María Castro - 2025 <img src="./signature.png" alt="signature" width={100} className="ml-[1rem] -mt-[1rem]"/></p>
 				
 			</div>

@@ -115,11 +115,36 @@ export const BentoGridItem = ({
                 </span>
               ))}
 
-              <span className="py-6 px-3 rounded-lg text-center bg-[#10132E]" />
+              <span className="py-4 sm:py-6px-3 rounded-lg text-center bg-[#10132E]" />
             </div>
             <div className="flex flex-col gap-3 lg:gap-8">
-            <span className="py-6 px-3 rounded-lg text-center bg-[#10132E]" />
+            <span className="py-4 sm:py-6 px-3 rounded-lg text-center bg-[#10132E]" />
               {['React.Js', 'TailwindCSS', 'Wordpress'].map((item) => (
+                <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg_text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                  {item}
+                </span>
+              ))}
+
+              
+            </div>
+
+          </div>
+        )}
+
+        {id===4 && (
+          <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+            <div className="flex flex-col gap-3 lg:gap-8">
+              {['Attention to details', 'Organization', 'Bilingual (Es|En)'].map((item) => (
+                <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg_text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                  {item}
+                </span>
+              ))}
+
+              <span className="py-4 sm:py-6 px-3 rounded-lg text-center bg-[#10132E]" />
+            </div>
+            <div className="flex flex-col gap-3 lg:gap-8">
+            <span className="py-4 sm:py-6 px-3 rounded-lg text-center bg-[#10132E]" />
+              {['Time managment', 'Problem solving', 'Autodidactic'].map((item) => (
                 <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg_text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                   {item}
                 </span>
