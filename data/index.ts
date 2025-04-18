@@ -109,7 +109,7 @@ export const projects = [
     id: 3,
     title: "Iphone",
     des: "Iphone website clone",
-    img: "/p4.svg",
+    img: "/p3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     github: "https://github.com/mcastrod08/iphone_website_react_gsap_threejs",
     demo: "https://mciphonecopy.netlify.app/"
@@ -118,7 +118,7 @@ export const projects = [
     id: 4,
     title: "Movies App",
     des: "Movie App with APi connection. If the API fails, i have a video demo",
-    img: "/p4.svg",
+    img: "/p4.png",
     iconLists: ["/re.svg", "/tail.svg", ],
     github: "https://github.com/mcastrod08/movies.git",
     demo: ""
