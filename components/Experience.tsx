@@ -17,7 +17,6 @@ const Experience = () => {
 						<p className="font-normal text-base text-neutral-200 mt-4">
 							{work.desc}
 						</p>
-						info de cuanto tiempo duré y lista de actividades.
 					</div>
 				</GlareCard>
 			))}

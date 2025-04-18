@@ -11,13 +11,27 @@ export function Areas() {
 				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Contribute </span>
 			</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto px-8">
-        <Card title="Frontend Web Developer" description="+1 year of experience" button={<Button title="Hover" icon={<FaGift/>}/>}>
+        <Card 
+          title="Frontend Web Developer" 
+          description="I turn wireframes and mockups into fully functional, responsive products.
+            I collaborate closely with backend developers and product owners for smooth integration.
+            I stay current with modern tools and practices to ensure quality and efficiency." 
+          button={<Button title="Hover" 
+          icon={<FaGift/>}/>}
+        >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Web Designer" description="+2 year of experience" button={<Button title="Hover" icon={<FaGift/>}/>}>
+        <Card 
+          title="Project Manager" 
+          description="I organize teams with clarity and vision, always focused on results.
+            I apply agile methodologies and promote open, effective communication.
+            I anticipate problems and solve them before they escalate." 
+          button={<Button title="Hover" 
+          icon={<FaGift/>}/>}
+        >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -30,7 +44,14 @@ export function Areas() {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/90" />
         </Card>
-        <Card title="Project Manager " description="+2 year of experience" button={<Button title="Hover" icon={<FaGift/>}/>}>
+        <Card 
+          title="Web Designer " 
+          description="I design with function in mind, not just aesthetics.
+            I use tools like Figma to turn ideas into actionable, clear visual concepts.
+            The user experience is always at the core of everything I build" 
+          button={<Button title="Hover" 
+          icon={<FaGift/>}/>}
+        >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -78,10 +99,10 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
           {button}
         </div>
-        <h2 className="text-xl  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <h2 className="text-[20px]  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
-        <p className="text-xs  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-normal group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">{description}</p>
+        <p className="text-[14px]  group-hover/canvas-card:opacity-100 sm:opacity-0 relative z-10 text-white mt-4  font-normal group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">{description}</p>
       </div>
     </div>
   );
