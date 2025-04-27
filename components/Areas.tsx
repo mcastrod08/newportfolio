@@ -24,6 +24,22 @@ export function Areas() {
             containerClassName="bg-emerald-900"
           />
         </Card>
+        
+        <Card 
+          title="Web Designer " 
+          description="I design with function in mind, not just aesthetics.
+            I use tools like Figma to turn ideas into actionable, clear visual concepts.
+            The user experience is always at the core of everything I build" 
+          button={<Button title="Hover" 
+          icon={<FaGift/>}/>}
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-sky-600"
+            colors={[[125, 211, 252]]}
+          />
+        </Card>
+
         <Card 
           title="Project Manager" 
           description="I organize teams with clarity and vision, always focused on results.
@@ -43,20 +59,6 @@ export function Areas() {
           />
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/90" />
-        </Card>
-        <Card 
-          title="Web Designer " 
-          description="I design with function in mind, not just aesthetics.
-            I use tools like Figma to turn ideas into actionable, clear visual concepts.
-            The user experience is always at the core of everything I build" 
-          button={<Button title="Hover" 
-          icon={<FaGift/>}/>}
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
         </Card>
       </div>
     </div>

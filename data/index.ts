@@ -30,7 +30,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-center",
-    img: "/main2.png",
+    img: "/main3.svg",
     spareImg: "",
   },
   {
@@ -89,6 +89,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Old Portfolio",
+    des: "Old portfolio develop in the pasts few years, ",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/tail.svg", ],
+    github: "",
+    demo: "https://mcastrod.netlify.app/home"
+  },
+  {
+    id: 2,
     title: "Restaurant",
     des: "Landing page of a restaurant",
     img: "/p1.png",
@@ -97,7 +106,7 @@ export const projects = [
     demo: "https://mc08restaurant.netlify.app/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Video App",
     des: "Youtube clone ",
     img: "/p2.png",
@@ -106,7 +115,7 @@ export const projects = [
     demo: "https://mc08youtube-clone.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Iphone",
     des: "Iphone website clone",
     img: "/p3.png",
@@ -115,7 +124,7 @@ export const projects = [
     demo: "https://mciphonecopy.netlify.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Movies App",
     des: "Movie App with APi connection. If the API fails, i have a video demo",
     img: "/p4.png",
@@ -124,23 +133,25 @@ export const projects = [
     demo: ""
   },
   {
-    id: 5,
+    id: 6,
     title: "Brainwave",
-    des: "Demo of an new AI",
+    des: "Website Demo of an new AI",
     img: "/p5.png",
     iconLists: ["/re.svg", "/tail.svg", ],
     github: "https://github.com/mcastrod08/brainwaveMC.git",
     demo: "https://mcbrainwave.netlify.app/"
   },
+
   {
-    id: 6,
-    title: "Old Portfolio",
-    des: "Old portfolio develop in the pasts few years, ",
-    img: "/p6.png",
-    iconLists: ["/re.svg", "/tail.svg", ],
-    github: "",
-    demo: "https://mcastrod.netlify.app/home"
+    id: 7,
+    title: "Awards",
+    des: "Website of an award for a game",
+    img: "/about.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
+    github: "https://github.com/mcastrod08/awards.git",
+    demo: "https://mcawards2025.netlify.app/"
   },
+  
 
 ];
 
