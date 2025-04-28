@@ -97,7 +97,7 @@ export const BentoGridItem = ({
       <div className={cn(
         titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
       )}>
-        <div className="font-sans text-sm  md:text-xs lg:text-base z-10 font-extralight text-[#c1c2d3]">
+        <div className="font-sans text-sm  md:text-xs lg:text-base z-10 font-extralight text-[#c1c2d3] hidden sm:block">
           {description}
         </div>
         <div className="mt-2 mb-2 font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">

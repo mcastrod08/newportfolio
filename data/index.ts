@@ -156,7 +156,7 @@ export const projects = [
     id: 8,
     title: "Coming Soon",
     des: "Working on it",
-    img: "/coming_soon1.svg",
+    img: "/soon.svg",
     iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
     github: "",
     demo: ""
@@ -166,7 +166,7 @@ export const projects = [
     id: 9,
     title: "Coming Soon",
     des: "Working on it",
-    img: "/coming_soon1.svg",
+    img: "/soon.svg",
     iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
     github: "",
     demo: ""
