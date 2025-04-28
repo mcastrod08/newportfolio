@@ -42,7 +42,7 @@ export function CardProject({title, description, img, github, demo, iconLists} :
           rotateZ={-10}
           className="w-full mt-6"
         >
-        <div className="flex items-center justify-between mt.7 mb-3">
+        <div className="flex items-center justify-between mt-7 mb-3">
           <div className="flex items-center">
             {iconLists.map((icon, index) =>(
               <div 

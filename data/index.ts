@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 1,
     title: "Old Portfolio",
-    des: "Old portfolio develop in the pasts few years, ",
+    des: "My old portfolio with different small projects ",
     img: "/p6.png",
     iconLists: ["/re.svg", "/tail.svg", ],
     github: "",
@@ -108,7 +108,7 @@ export const projects = [
   {
     id: 3,
     title: "Video App",
-    des: "Youtube clone ",
+    des: "Video app similar to Youtube",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg" ],
     github: "https://github.com/mcastrod08/youtubeclone",
@@ -126,7 +126,7 @@ export const projects = [
   {
     id: 5,
     title: "Movies App",
-    des: "Movie App with APi connection. If the API fails, i have a video demo",
+    des: "Movie App with API connection. [Video demo]",
     img: "/p4.png",
     iconLists: ["/re.svg", "/tail.svg", ],
     github: "https://github.com/mcastrod08/movies.git",
@@ -145,11 +145,31 @@ export const projects = [
   {
     id: 7,
     title: "Awards",
-    des: "Website of an award for a game",
+    des: "Awards Website for a game",
     img: "/about.webp",
     iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
     github: "https://github.com/mcastrod08/awards.git",
     demo: "https://mcawards2025.netlify.app/"
+  },
+
+  {
+    id: 8,
+    title: "Coming Soon",
+    des: "Working on it",
+    img: "/coming_soon1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
+    github: "",
+    demo: ""
+  },
+
+  {
+    id: 9,
+    title: "Coming Soon",
+    des: "Working on it",
+    img: "/coming_soon1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/gsap.svg" ],
+    github: "",
+    demo: ""
   },
   
 
@@ -161,28 +181,28 @@ export const workExperience = [
     id: 1,
     title: "Frontend Developer Intern",
     desc: "Developed fully functional websites based on UI prototypes using HTML, CSS, Bootstrap, JavaScript, and PHP.",
-    className: "md:col-span-2",
+    className: "md:col-span-1",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Frontend Web Developer",
     desc: "Developed a responsive web application for course management using React JS, SASS, and Material UI — currently in active use.",
-    className: "md:col-span-2", 
+    className: "md:col-span-1", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Project Manager",
     desc: "Led and manage a cross-functional team of 10 professionals in over 30 projects, achieving a 50% reduction in delivery times, consistently meeting deadlines and budget constraints",
-    className: "md:col-span-2",
+    className: "md:col-span-1",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Web Designer",
     desc: "Designed and built custom WordPress websites tailored to client goals and brand identity.",
-    className: "md:col-span-2",
+    className: "md:col-span-1 ",
     thumbnail: "/exp4.svg",
   },
 ];

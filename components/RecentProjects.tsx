@@ -9,7 +9,7 @@ const RecentProjects = () => {
 			<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Projects</span>
 		</h1>
 			{/* es-disable @typescript-eslint/no-unused-vars */}
-		<div className="mx-auto grid lg:grid-cols-3 md:grid-cols-2  md:gap-4 sm:grid-cols-1 h-full w-full">
+		<div className="flex lg:justify-between flex-wrap sm:justify-center pt-10">
 			{projects.map(({id, title, des, img, github, demo, iconLists }) => (
 				<div
 					key={id}

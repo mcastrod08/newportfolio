@@ -8,7 +8,7 @@ const Experience = () => {
       <h1 className="heading mb-10"> Work {" "}
 				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Experience</span>
 			</h1>
-		<div className="mx-auto grid lg:grid-cols-4 md:grid-cols-2  md:gap-4 sm:grid-cols-1 h-full w-full ">
+		<div className="flex lg:justify-between flex-wrap sm:justify-center pt-10 ">
 			{workExperience.map((work) => (
 				<GlareCard  key={work.id} className="rounded-2xl" >
 					<div className="items-start justify-end py-8 px-6 ">
