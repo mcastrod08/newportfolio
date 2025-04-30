@@ -10,7 +10,7 @@ const Footer = () => {
 					<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">together?</span>
 				</h1>
 				<p className="py-5 text-center text-white-200 text-[18px] ">Reach out to me today and let&apos;s discuss how i can help you achieve your goals </p>
-				<a href="mailto:mcastrod08@gmail.com">
+				<a href="mailto:mcastrod08@gmail.com" className="pt-10">
 					<CopyButton title="Let's get in touch" icon={<FaLocationArrow/>}/>
 				</a>
 			</div>

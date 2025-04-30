@@ -10,7 +10,7 @@ export function Areas() {
     	<h1 className="heading mb-10"> Areas Where I Can {" "}
 				<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Contribute </span>
 			</h1>
-      <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-4 mx-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-4 mx-auto pt-10">
         <Card 
           title="Frontend Web Developer" 
           description="I turn wireframes and mockups into fully functional, responsive products.
