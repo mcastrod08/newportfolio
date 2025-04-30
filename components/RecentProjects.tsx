@@ -4,12 +4,12 @@ import { CardProject } from './CardProject'
 
 const RecentProjects = () => {
   return (
-    <div className="pt-30 px-5" id="projects">
+    <div className="pt-30 px-10" id="projects">
       	<h1 className="heading mb-10"> Recent {" "}
 			<span className="bg-gradient-to-r from-white to-indigo-600 bg-clip-text text-transparent">Projects</span>
 		</h1>
 			{/* es-disable @typescript-eslint/no-unused-vars */}
-		<div className="flex lg:justify-between flex-wrap sm:justify-center pt-10">
+		<div className="flex justify-center flex-wrap  pt-10">
 			{projects.map(({id, title, des, img, github, demo, iconLists }) => (
 				<div
 					key={id}
